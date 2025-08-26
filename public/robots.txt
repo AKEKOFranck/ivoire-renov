@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://ivoire-renov.vercel.app/
