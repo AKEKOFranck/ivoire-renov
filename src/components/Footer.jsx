@@ -9,14 +9,17 @@ export default function Footer() {
         <footer>
             <h4>
                 IvoireRenov@gmail.com
-            </h4>
-
-            <h4>
-                <a href="tel:+225 0789763083"><FaPhone className='info_icons' /></a>
-            </h4>
-
-             <h4>
-                    <a href='https://maps.app.goo.gl/DV9hbfiNAbjb6f9k8'><FaMapLocationDot  className='info_icons' /></a>
+           
+                <a href="tel:+225 0789763083"> 
+                    <FaPhone className='info_icons' />
+                     Notre service client
+                   
+                </a>
+            
+                    <a href='https://maps.app.goo.gl/DV9hbfiNAbjb6f9k8'>
+                    <FaMapLocationDot  className='info_icons' />
+                    Notre localisation
+                    </a>
             </h4>
         </footer>
     )

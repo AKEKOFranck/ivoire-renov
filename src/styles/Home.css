@@ -49,10 +49,11 @@
         flex-direction: column;
         height: 150vh;
         justify-content: space-between;
+        align-items: center;
     }
 
     .home_title{
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: 900;
         color: black;
     }
@@ -71,5 +72,20 @@
         flex-direction: column;
         height: 150vh;
         justify-content: space-between;
+        align-items: center;
+    }
+
+    .home_title{
+        font-size: 3rem;
+        font-weight: 900;
+        color: black;
+    }
+
+    .home_box{
+        font-size: 1.2rem;
+        color: whitesmoke;
+        font-weight: 600;
+            position: relative;
+    top: -90px;
     }
 }
