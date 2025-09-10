@@ -5,9 +5,9 @@ export default function Info() {
     const textData = [
         "Pour nous rencontrer",
          "appelez le :",
-        "+225 07 90 99 87 66 54",
+        "+225 07 08 12 85 59",
         "ou envoyez un email à ",
-        "ivoireReno@gmail.com",
+        "emmanuellerenov@gmail.com",
         "suivi du motif de votre réservation."
     ]
     return(

@@ -10,8 +10,9 @@ export default function Home() {
             <div className='home_cont'>
                <Link to=''>
                 <h2 className='home_title'>
-                    L'Art de la Rénovation.
-                </h2></Link>
+                    Réinventons votre quotidien
+                </h2>
+                </Link>
             </div>
             <div className='home_cont'>
                 <Link to='/Work'>

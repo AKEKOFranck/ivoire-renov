@@ -23,13 +23,13 @@
 }
 
 .home_title{
-   font-size: 7rem;
+   font-size: 6rem;
     color: whitesmoke;
 }
 
 .home_box{
     width: 100%;
-    color: rgb(0, 0, 0);
+    color: whitesmoke;
     font-size: 1.5rem;
     font-weight: 600;
     border-bottom: 5px solid black;
@@ -55,13 +55,12 @@
     .home_title{
         font-size: 3rem;
         font-weight: 900;
-        color: black;
     }
 
     .home_box{
         font-size: 1.2rem;
-        color: whitesmoke;
-        font-weight: 600;
+        color: black;
+        font-weight: 900;
             position: relative;
     top: -90px;
     }
@@ -78,7 +77,6 @@
     .home_title{
         font-size: 3rem;
         font-weight: 900;
-        color: black;
     }
 
     .home_box{

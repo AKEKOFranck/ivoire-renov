@@ -25,9 +25,17 @@ a{
 @media (max-width:767px) {
     footer h4{
         flex-direction: column;
+         height: auto;
+        position: relative;
+        gap: 70px  ;
     }
 }
 
 @media (min-width:767px) and (max-width:1400px) {
-     
+     footer h4{
+        flex-direction: column;
+        height: auto;
+        position: relative;
+        gap: 70px  ;
+    }
 }

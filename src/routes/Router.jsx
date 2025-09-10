@@ -6,7 +6,9 @@ import About from '../pages/About';
 import Info from '../pages/Info';
 import Build1 from '../pagesWorks/Build1';
 import Build2 from '../pagesWorks/Build2';
-import Build3 from '../pagesWorks/Build3';
+import Build4 from '../pagesWorks/Build4';
+
+
 
 
 const router = createBrowserRouter([
@@ -38,10 +40,13 @@ const router = createBrowserRouter([
         path:'/Build2',
         element:<Build2/>
       },
-      {
-        path:'/Build3',
-        element:<Build3/>
+     
+            {
+        path:'/Build4',
+        element:<Build4/>
       },
+          
+         
      
     ]
   }
