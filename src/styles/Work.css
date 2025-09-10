@@ -46,8 +46,9 @@
 }
 
 .work_link{
-    font-weight: 800;
+    font-weight: 900;
     font-size: 1.2rem;
+    color: black;
 }
 
 
@@ -79,8 +80,8 @@
     }
 
     .work_link, h5{
-        font-size: 1rem;
-        font-weight: 700;
+        font-size: 1.4rem;
+        font-weight: 800;
      
     }
 }

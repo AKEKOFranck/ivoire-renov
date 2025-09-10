@@ -19,7 +19,7 @@
     justify-content: space-around;
     font-size: 2rem;
     font-weight: 900;
-    color: whitesmoke;
+    color: black;
 }
 
 .box_cont{
@@ -51,7 +51,7 @@
 
 @media (max-width:767px) {
    .box_main{
-    height: 900vh;
+    height: 800vh;
    }
 
    .box_info{
