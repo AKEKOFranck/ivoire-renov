@@ -52,7 +52,7 @@
 }
 
 
-#work3_container1, #work3_container3 {
+#work3_container2 {
     justify-content: space-around;
 }
 
@@ -64,7 +64,7 @@
     .work_cont{
         height: 95%;
          position: relative;
-        gap: 300px;
+        gap: 200px;
     }
 
     .work_container{
@@ -72,7 +72,7 @@
         height: 100%;
         width: 100%;
         position: relative;
-        gap: 150px;
+        gap: 10px;
     }
 
     .work_box{

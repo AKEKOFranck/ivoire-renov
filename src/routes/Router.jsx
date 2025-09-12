@@ -4,9 +4,12 @@ import Home from '../pages/Home';
 import Work from '../pages/Work';
 import About from '../pages/About';
 import Info from '../pages/Info';
-import Build1 from '../pagesWorks/Build1';
-import Build2 from '../pagesWorks/Build2';
-import Build4 from '../pagesWorks/Build4';
+import Project1 from '../ProjectPages/Project1';
+import Project2 from '../ProjectPages/Project2';
+import Project3 from '../ProjectPages/Project3';
+import Project4 from '../ProjectPages/Project4';
+
+
 
 
 
@@ -33,21 +36,23 @@ const router = createBrowserRouter([
         element:<Info/>
       },
       {
-        path:'/Build1',
-        element:<Build1/>
+        path:'/Project1',
+        element:<Project1/>
       },
       {
-        path:'/Build2',
-        element:<Build2/>
+        path:'/Project2',
+        element:<Project2/>
       },
-     
-            {
-        path:'/Build4',
-        element:<Build4/>
+      {
+        path:'/Project3',
+        element:<Project3/>
       },
-          
-         
-     
+      {
+        path:'/Project4',
+        element:<Project4/>
+      },
+
+      
     ]
   }
 ]);
