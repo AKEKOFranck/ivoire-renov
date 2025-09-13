@@ -13,7 +13,7 @@ export default function Header() {
     return (
         <header>
             <Link to='/'>
-                <h2 className='navtitle'>Ivoire Renov</h2>
+                <h2 className='navtitle'>EM-RENOV</h2>
             </Link>
 
             <nav className={menuOpen ? 'open' : 'closed'}>

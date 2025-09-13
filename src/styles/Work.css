@@ -1,14 +1,15 @@
 .work_main{
     width: 100%;
-    height: 250vh;
+    height: 200vh;
 }
 
 .work_cont{
-    
+
     width: 100%;
-    height: 85%;
+    height: 80%;
     position: relative;
     top: 100px;
+    
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -34,9 +35,6 @@
     transition: all 0.8s ease-in-out;
 }
 
-.work_box:hover{
-    transform: scale(1.2);
-}
 
 .work_img{
     height: 100%;
@@ -47,8 +45,9 @@
 
 .work_link{
     font-weight: 900;
-    font-size: 1.2rem;
-    color: black;
+    font-size: 1.1rem;
+    color:  black ;
+
 }
 
 
@@ -56,66 +55,59 @@
     justify-content: space-around;
 }
 
-@media (max-width:767px) {
+
+
+
+.work_bt{
+    border: 2px outset whitesmoke;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+    background:   whitesmoke; /* Couleur de fond pour mieux voir le halo */
+    animation: around 2s ease-in-out infinite alternate;
+    transform: scale(1);
+    transition: all 0.8s ease-in-out;
+}
+
+.work_bt:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+
+
+@keyframes around {
+    from {
+        box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7); /* Transparent au début */
+    }
+     to {
+        box-shadow: 
+            0 0 10px 2px rgba(245, 245, 245, 0.5),
+            0 0 10px 5px rgba(245, 245, 245, 0.3); /* Multiples halos */
+    }
+}
+
+
+
+@media (min-width: 350px)  and (max-width: 768px) {
     .work_main{
-        height: 500vh;
+        height: 400vh;
     }
 
     .work_cont{
-        height: 95%;
-         position: relative;
-        gap: 200px;
+        height: auto;
+        position: relative;
+        gap: 130px;
     }
 
     .work_container{
         flex-direction: column;
-        height: 100%;
-        width: 100%;
-        position: relative;
-        gap: 10px;
-    }
-
-    .work_box{
-        width: 70%;
-    }
-
-    .work_link, h5{
-        font-size: 1.4rem;
-        font-weight: 800;
-     
-    }
-}
-
-
-@media (min-width:767px) and  (max-width:1400px) {
-     .work_main{
-        height: 700vh;
-    }
-
-    .work_cont{
-        height: 95%;
          position: relative;
-        gap: 200px;
-    }
-
-    .work_container{
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
-        position: relative;
-        gap: 200px;
+        gap: 90px;
     }
 
     .work_box{
-        width: 50%;
-    }
-
-    .work_link, h5{
-        font-size: 1rem;
-        font-weight: 700;
-     
+        width: 80%;
+        height: 200px;
     }
 }
-
-
-

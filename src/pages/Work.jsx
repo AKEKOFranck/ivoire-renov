@@ -16,21 +16,21 @@ import { Link } from 'react-router-dom';
 export default function Work() {
 
     const infoData1 = [
-        {id:1, image:pic1,  details: <Link  className='work_link'  to='/Project1'> découvrez </Link>},
-        {id:2, image:pic2,  details: <Link  className='work_link' to='/Project2'> découvrez </Link>},
-        {id:3, image:pic3,  details: <Link  className='work_link' to='/Project3'> découvrez </Link>},
+        {id:1, image:pic1,  details: <Link  className='work_link'  to='/Project1'> Découvrez </Link>},
+        {id:2, image:pic2,  details: <Link  className='work_link' to='/Project2'> Découvrez </Link>},
+        {id:3, image:pic3,  details: <Link  className='work_link' to='/Project3'> Découvrez </Link>},
 
     ];
 
      const infoData2 = [
-        {id:1, image:pic4,  details: <Link  className='work_link' to='/Project4'> découvrez </Link>},
-        {id:2, image:pic5,  details: <Link  className='work_link' to='/Project4'> découvrez </Link>},
-        {id:3, image:pic6,  details: <Link  className='work_link' to='/Project4'> découvrez </Link>},
+        {id:1, image:pic4,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
+        {id:2, image:pic5,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
+        {id:3, image:pic6,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
     ];
 
      const infoData3 = [
-        {id:1, image:pic7,  details: <Link  className='work_link' to='/Project4'> découvrez </Link>},
-        {id:2, image:pic8,  details: <Link  className='work_link' to='/Project4'> découvrez </Link>},
+        {id:1, image:pic7,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
+        {id:2, image:pic8,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
     ];
 
 
@@ -41,10 +41,7 @@ export default function Work() {
                 {infoData1.map((d1) =>(
                     <div className='work_box' key={d1.id}>
                         <img className='work_img'  src={d1.image} alt='poste'></img>
-                        <h5 className='work_text'>
-                          
-                           <p>{d1.details}</p>
-                        </h5>
+                        <button className='work_bt' type='button'>{d1.details}</button>
                     </div>
                 ))}
             </div>
@@ -53,10 +50,7 @@ export default function Work() {
                   {infoData2.map((d2) =>(
                     <div className='work_box' key={d2.id}>
                         <img className='work_img'  src={d2.image} alt='poste'></img>
-                        <h5 className='work_text'>
-                           
-                           <p>{d2.details}</p>
-                        </h5>
+                        <button className='work_bt' type='button'>{d2.details}</button>
                     </div>
                 ))}
             </div>
@@ -65,10 +59,7 @@ export default function Work() {
                  {infoData3.map((d3) =>(
                     <div className='work_box' key={d3.id}>
                         <img className='work_img'  src={d3.image} alt='poste'></img>
-                        <h5 className='work_text'>
-                          
-                           <p>{d3.details}</p>
-                        </h5>
+                        <button className='work_bt' type='button'>{d3.details}</button>
                     </div>
                 ))}
             </div>
