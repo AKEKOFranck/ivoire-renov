@@ -91,7 +91,7 @@
 
 @media (min-width: 350px)  and (max-width: 768px) {
     .work_main{
-        height: 400vh;
+        height: 300vh;
     }
 
     .work_cont{
