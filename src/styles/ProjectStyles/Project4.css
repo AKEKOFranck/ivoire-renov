@@ -105,42 +105,142 @@
 }
 
 
-@media (min-width:767px) and  (max-width:1400px) {
+@media (min-width:768px) and  (max-width:1400px) {
+   
      .proj4_main{
-        height:1000vh;
+        height: 800vh;
     }
 
     .proj4_cont{
         position: relative;
-        gap: 300px;
+        gap:100px;
         flex-direction: column;
         height: 90%;
     }
 
 
-
-
     .proj4_title{
-    font-size: 2rem;
+    font-size: 1.4rem;
     text-align: center;
     font-weight: 700;
 }
 
 .proj4_box{
-    flex-direction: column;
     height: auto;
     position: relative;
-    gap: 200px;
+    gap: 90px;
 }
 
 .proj4_box_img{
-    height: 70%;
-    width: 80%;
+    height: 100%;
+    width: 100%;
+}
+
+
+.proj4_box_title{
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    font-size: 1.1rem;
 }
 
 
 .proj4_box_img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 5px white;
+}
+}
+
+
+@media (min-width:820px) and  (max-width:1400px) {
+   
+     .proj4_main{
+        height: 300vh;
+    }
+
+    .proj4_cont{
+        position: relative;
+        gap:100px;
+        flex-direction: column;
+        height: 90%;
+    }
+
+
+    .proj4_title{
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.proj4_box{
+    height: auto;
+    position: relative;
+    gap: 90px;
+}
+
+.proj4_box_img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.proj4_box_title{
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+
+.proj4_box_img:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 5px white;
+}
+}
+
+
+@media (min-width:1280px) and  (max-width:1500px) {
+   
+     .proj4_main{
+        height: 500vh;
+    }
+
+    .proj4_cont{
+        position: relative;
+        gap:100px;
+        flex-direction: column;
+        height: 90%;
+    }
+
+
+    .proj4_title{
+    font-size: 1.4rem;
+    text-align: center;
+    font-weight: 700;
+}
+
+.proj4_box{
+    height: auto;
+    position: relative;
+    gap: 90px;
+}
+
+.proj4_box_img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.proj4_box_title{
+    text-align: center;
+    color: black;
+    font-weight: 900;
+    font-size: 1.1rem;
+}
+
+
+.proj4_box_img:hover{
+    transform: scale(1.1);
     box-shadow: 0px 0px 5px 5px white;
 }
 }
