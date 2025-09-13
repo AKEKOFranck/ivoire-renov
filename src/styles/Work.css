@@ -89,7 +89,7 @@
 
 
 
-@media (min-width: 350px)  and (max-width: 768px) {
+@media (max-width: 768px) {
     .work_main{
         height: 300vh;
     }
@@ -111,3 +111,5 @@
         height: 200px;
     }
 }
+
+
