@@ -55,17 +55,17 @@
 }
 
 
-@media (max-width:767px) {
+@media (max-width:768px) {
 
     
 
      .proj4_main{
-        height: 550vh;
+        height: 620vh;
     }
 
     .proj4_cont{
         position: relative;
-        gap:200px;
+        gap:100px;
         flex-direction: column;
         height: 90%;
     }
@@ -81,7 +81,7 @@
     flex-direction: column;
     height: auto;
     position: relative;
-    gap: 100px;
+    gap: 90px;
 }
 
 .proj4_box_img{

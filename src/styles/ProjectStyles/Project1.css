@@ -48,11 +48,13 @@
 }
 
 
-@media (max-width:767px) {
+@media (max-width:768px) {
 
     
 
-
+   .proj1_main{
+    height: 400vh;
+   }
 
 
     .proj1_title{
@@ -65,7 +67,7 @@
     flex-direction: column;
     height: auto;
     position: relative;
-    gap: 50px;
+    gap: 90px;
 }
 
 .proj1_box_img{

@@ -48,13 +48,15 @@
 }
 
 
-@media (max-width:767px) {
+@media (max-width:768px) {
 
-    
+     .proj3_main{
+        height: 300vh;
+     }
 
      .proj3_cont{
         position: relative;
-        gap: 200px;
+        gap: 100px;
         flex-direction: column;
         height: 90%;
     }
@@ -68,14 +70,14 @@
 
 .proj3_box{
     flex-direction: column;
-    height: 100%;
+    height: 40%;
     position: relative;
-    gap: 200px;
+    gap: 10px;
     width: 90%;
 }
 
 .proj3_box_img{
-    height: 80%;
+    height: 30%;
     width: 100%;
 }
 
