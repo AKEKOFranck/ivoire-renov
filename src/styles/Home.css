@@ -48,9 +48,10 @@
 @media (max-width:767px) {
     .home_main{
         flex-direction: column;
-        height: 150vh;
-        justify-content: space-between;
-        align-items: center;
+        height: 100vh;
+        position: relative;
+        top: -20px;
+         
     }
 
     .home_title{
@@ -59,12 +60,15 @@
         color: black;
     }
 
+
     .home_box{
-        font-size: 1.2rem;
+        font-size: 1.5rem;
         color: black;
-        font-weight: 900;
+        font-weight: 900 bold;
             position: relative;
-    top: -90px;
+    top: -10px;
+    gap: 5px;
+
     }
 
     
@@ -76,27 +80,31 @@
 }
 
 @media (min-width:767px) and (max-width:1400px) {
-      .home_main{
+     .home_main{
         flex-direction: column;
-        height: 150vh;
-        justify-content: space-between;
-        align-items: center;
+        height: 100vh;
+        position: relative;
+        top: -20px;
+         
     }
 
     .home_title{
         font-size: 3rem;
         font-weight: 900;
-                color: black;
-
+        color: black;
     }
+
 
     .home_box{
-        font-size: 2rem;
+        font-size: 1.3rem;
         color: black;
-        font-weight: 600;
+        font-weight: 900;
             position: relative;
-    top: -90px;
+    top: 10px;
+    gap: 5px;
+
     }
+
 
         
 .home_box:hover{
@@ -104,4 +112,75 @@
     color: brown;
    
 }
+}
+
+
+
+
+
+@media (min-width:768px) and  (max-width:1400px) {
+ .home_main{
+        flex-direction: column;
+        height: 100vh;
+        position: relative;
+        top: -20px;
+         
+    }
+
+    .home_title{
+        font-size: 3rem;
+        font-weight: 900;
+        color: black;
+    }
+
+
+    .home_box{
+        font-size: 2rem;
+        color: black;
+        font-weight: 900;
+            position: relative;
+    top: -100px;
+    gap: 5px;
+
+    }
+
+
+}
+
+
+
+
+@media (min-width:820px) and  (max-width:1400px) {
+.home_main{
+        flex-direction: column;
+        height: 100vh;
+        position: relative;
+        top: -20px;
+         
+    }
+
+    .home_title{
+        font-size: 3rem;
+        font-weight: 900;
+        color: black;
+    }
+
+
+    .home_box{
+        font-size: 2rem;
+        color: black;
+        font-weight: 900;
+            position: relative;
+    top: -100px;
+    gap: 5px;
+
+    }
+
+
+}
+
+
+@media (min-width:1280px) and  (max-width:1500px) {
+
+
 }
