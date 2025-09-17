@@ -1,6 +1,6 @@
 .work_main{
     width: 100%;
-    height: 200vh;
+    height: 250vh;
 }
 
 .work_cont{
@@ -9,7 +9,7 @@
     height: 80%;
     position: relative;
     top: 100px;
-    
+    gap: 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -51,9 +51,6 @@
 }
 
 
-#work3_container2 {
-    justify-content: space-around;
-}
 
 
 
@@ -90,26 +87,33 @@
 
 
 @media (max-width: 768px) {
-    .work_main{
-        height: 340vh;
-    }
+    
+.work_container{
+    width: 100%;
+    align-items: center;
+   
 
-    .work_cont{
-        height: auto;
-        position: relative;
-        gap: 130px;
-    }
+}
 
-    .work_container{
-        flex-direction: column;
-         position: relative;
-        gap: 90px;
-    }
+.work_box{
+    width: 46%;
+    height: 250px;
+  
+}
 
-    .work_box{
-        width: 80%;
-        height: 200px;
-    }
+.work_img{
+     height: 100%;
+    width: 100%;
+}
+
+
+.work_bt{
+    height: 50px;
+    width: 100px;
+  
+}
+
+
 }
 
 
@@ -118,27 +122,7 @@
 
 
 @media (min-width:767px) and (max-width:1400px) {
-     .work_main{
-        height: 130vh;
-    }
-
-    .work_cont{
-        height: auto;
-        position: relative;
-        gap: 130px;
-    }
-
-    .work_container{
-        flex-direction: row;
-         position: relative;
-        width: 100%;
-        align-items: center;
-    }
-
-    .work_box{
-        width:100%;
-        height: 150px;
-    }
+   
 }
 
 
@@ -147,7 +131,7 @@
 
 @media (min-width:768px) and  (max-width:1400px) {
   .work_main{
-        height: 100vh;
+        height: 140vh;
     }
 
     .work_cont{
@@ -176,7 +160,7 @@
 
 @media (min-width:820px) and  (max-width:1400px) {
      .work_main{
-        height: 100vh;
+        height: 130vh;
     }
 
     .work_cont{
@@ -201,7 +185,7 @@
 
 @media (min-width:1280px) and  (max-width:1500px) {
   .work_main{
-        height: 130vh;
+        height: 170vh;
     }
 
     .work_cont{

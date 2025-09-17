@@ -18,17 +18,19 @@ export default function Work() {
     const infoData1 = [
         {id:1, image:pic1,  details: <Link  className='work_link'  to='/Project1'> Découvrez </Link>},
         {id:2, image:pic2,  details: <Link  className='work_link' to='/Project2'> Découvrez </Link>},
-        {id:3, image:pic3,  details: <Link  className='work_link' to='/Project3'> Découvrez </Link>},
-
     ];
 
      const infoData2 = [
-        {id:1, image:pic4,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
-        {id:2, image:pic5,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
-        {id:3, image:pic6,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
+        {id:1, image:pic3,  details: <Link  className='work_link' to='/Project3'> Découvrez </Link>},
+        {id:2, image:pic4,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
     ];
 
      const infoData3 = [
+        {id:1, image:pic5,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
+        {id:2, image:pic6,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
+    ];
+
+     const infoData4 = [
         {id:1, image:pic7,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
         {id:2, image:pic8,  details: <Link  className='work_link' to='/Project4'> Découvrez </Link>},
     ];
@@ -60,6 +62,15 @@ export default function Work() {
                     <div className='work_box' key={d3.id}>
                         <img className='work_img'  src={d3.image} alt='poste'></img>
                         <button className='work_bt' type='button'>{d3.details}</button>
+                    </div>
+                ))}
+            </div>
+
+             <div className='work_container' id='work3_container2'>
+                 {infoData4.map((d4) =>(
+                    <div className='work_box' key={d4.id}>
+                        <img className='work_img'  src={d4.image} alt='poste'></img>
+                        <button className='work_bt' type='button'>{d4.details}</button>
                     </div>
                 ))}
             </div>
